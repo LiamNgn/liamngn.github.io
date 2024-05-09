@@ -1,7 +1,7 @@
 # Basic config
 baseURL = "https://liamngn.github.io"
 theme = "hugo-bearcub"
-copyright = "John Doe (CC BY 4.0)"
+copyright = "Liam Ngn (CC BY 4.0)"
 defaultContentLanguage = "en"
 
 # Generate a nice robots.txt for SEO
@@ -22,7 +22,7 @@ enableRobotsTXT = true
 
 [params]
   # The description of your website
-  description = "Bear Cub Demo"
+  description = "LiamNgn's personal website"
 
   # The path to your favicon
   favicon = "images/favicon.png"
@@ -35,7 +35,7 @@ enableRobotsTXT = true
 
   # This title is used as the site_name on the Hugo's internal opengraph
   # structured data template
-  title = "Bear Cub"
+  title = "Liam Nguyen"
 
   # Dates are displayed following the format below. For more information about
   # formatting, see https://gohugo.io/functions/format/
