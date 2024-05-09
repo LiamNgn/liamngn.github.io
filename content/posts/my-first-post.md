@@ -6,4 +6,4 @@ draft = false
 
 ## Intro
 
-I'm so lonely right now. This is not helping. Even when outside the sun is sky shining, birds are chirping, inside my room, loneliness is starting to creep on me again. 
+Hello world.
