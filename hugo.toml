@@ -67,5 +67,5 @@ enableRobotsTXT = true
   # Author metadata. This is mostly used for the RSS feed of your site, but the
   # email is also added to the footer of each post
   [params.author]
-    name = "John Doe" # Your name as shown in the RSS feed metadata
-    email = "me@example.com" # Added to the footer so readers can reply to posts
+    name = "Liam Nguyen" # Your name as shown in the RSS feed metadata
+    email = "tlam.nguyenle@gmail.com" # Added to the footer so readers can reply to posts

@@ -4,32 +4,17 @@ menu: "main"
 weight: 1
 ---
 
-# ᕦʕ •ᴥ•ʔᕤ Bear Cub
+# About me
 
-Today's websites are bloated, slow, and full of scripts, ads, and trackers. This
-became so commonplace that we lost all sense of perspective, to the point that
-we now think multi-megabyte webpages are normal.
+ My name is Lam Nguyen Le Tung but you can call me Liam and this is my personal website. I write about machine learning, statistics, probability as well as movies and books. I read a lot of different type of books. 
 
-> The internet has become a bloated mess. Huge JavaScript libraries, countless
-> client-side queries and overly complex frontend frameworks are par for the
-> course these days.
->
-> --- [Kev Quirk](https://512kb.club/)
+ I'm currently working as a research engineer at [ENSAE](https://www.ensae.fr/en) in [FAIRPLAY](https://team.inria.fr/fairplay/) lab. I graduated from [Toulouse School of Economics](https://www.tse-fr.eu/) with a degree in Applied Mathematics and Statistics. 
 
-Let's change this, one website at a time! **Bear Cub** is a
-[Hugo](https://gohugo.io/) theme based on [Hugo
-Bear](https://github.com/janraasch/hugo-bearblog/) that takes care of speed and
-optimization, so you can focus on writing good content.
+ You can find out more about me:
 
-It is free, multilingual, optimized for search engines, no-nonsense, responsive,
-light, and fast. Really fast.
-
-When compared to its predecessor, **Bear Cub** has a few
-[privacy](https://themarkup.org/blacklight?url=clente.github.io/hugo-bearcub/)
-and
-[accessibility](https://pagespeed.web.dev/report?url=https%3A%2F%2Fclente.github.io%2Fhugo-bearcub%2F)
-upgrades. It's also compatible with modern
-[security](https://github.com/clente/hugo-bearcub#secure) standards, so your
-users don't have to worry about browsing your website.
-
-Made with 💟 by [Caio lente](https://lente.dev/en).
+ - [My LinkedIn Profile](https://www.linkedin.com/in/liamngnn/)
+ - [My Github](https://github.com/LiamNgn)
+ 
+ You can also contact me:
+ - By email: tlam.nguyenle@gmail.com
+ - By twitter: @LiamNggn
