@@ -6,7 +6,6 @@ categories:
 tags: 
 aliases: 
 share: true
-links: "False"
 ---
 
 # Analyze Post on Facebook Private Group BumbleVN
