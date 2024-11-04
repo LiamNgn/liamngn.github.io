@@ -12,7 +12,7 @@ share: true
 
 # Analyze Post on Facebook Private Group BumbleVN
 
-[2024-10-21]({{< ref "2024-10-21" >}})
+2024-10-21
 
 So in order to scrape the data, we will use Selenium. Without any explanations, all steps in the process will be conducted using selenium. The process will go as follows:
 
@@ -20,7 +20,7 @@ So in order to scrape the data, we will use Selenium. Without any explanations, 
 - Secondly, we go to the link that contains the search result and the filter in our private group. In our case, the group is BumbleVN.
 - Finally, we proceed to extract the necessary data from our search result and saved to a json or csv file. The precise data type will be decided later.
 
-[2024-11-02]({{< ref "2024-11-02" >}})
+2024-11-02
 
 - The scraping was way harder than I expect.
 - The original ideas was to scroll till ends then save all the contents after having expanded all the posts. We would like to be able to get the number of reactions and the comments. Nevertheless, when doing it this way, we may be able to get the detailed reactions as well as all the comments yet we can't separate the posts, which makes it nearly impossible to handle the long line of text effectively. We need a different strategy.
