@@ -1,9 +1,11 @@
 ---
 title: Analyze Post on Facebook Private Group BumbleVN
 date: 2024-10-16 11:41:00
-lastmod: 2024-11-042 00:1:442:57
-categories: 
-tags: 
+lastmod: 2024-11-05 00:33:48
+categories:
+  - 
+tags:
+  - 
 aliases: 
 share: true
 ---
