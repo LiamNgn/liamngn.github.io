@@ -1,7 +1,7 @@
 ---
 title: Analyze Post on Facebook Private Group BumbleVN
 date: 2024-10-16 11:41:00
-lastmod: 2024-11-05 00:33:48
+lastmod: 2024-11-14 19:04:31
 categories:
   - 
 tags:
@@ -26,5 +26,14 @@ So in order to scrape the data, we will use Selenium. Without any explanations, 
 - The original ideas was to scroll till ends then save all the contents after having expanded all the posts. We would like to be able to get the number of reactions and the comments. Nevertheless, when doing it this way, we may be able to get the detailed reactions as well as all the comments yet we can't separate the posts, which makes it nearly impossible to handle the long line of text effectively. We need a different strategy.
 - As I have discovered that you can go to the separate posts by click on the date (TIL), I have decided to change to another strategy. I would scroll to the end, get all the link to the separate posts. Then each of the posts is saved as a separate HTML file. Handling everything from there will be much easier.
 - Another issue arises, the link we get when click on is different from the link that Selenium get. Annoying right? I have theorized that the link needed to be hover over to change to the link to the separate group. I have tried scroll to the end then hover the mouse to every elements. However, it's impossible because the first link is too far away to the end of the scroll. I have to change the scroll function so that each scroll will move the mouse to all the link inside. Any link being hovered before won't be touched again.
-- [ ] Scraping the data ➕ 2024-10-16
+
+2024-11-14
+
+- I have not updated in a while but as of today, the scraping is done. I have managed to get individual link to each post from a search result. For each link, I have managed to get user_name, user_url, post_content, reactions, creation_time, and all comments. I will go over each of these in detail below.
+- As I stated above, in order to get the correct link, we have to hover the mouse over. Yet doing it on a large scale is not that easy. I have to get all link on the current view, move the mouse to the link. If some links are not available, I will scroll down for half of the page length then repeat the process again. I manage to get all the links after doing these.
+- Getting the user_name, user_url are rather easy. We only have to find the xpath link and get it. The slight inconvenience is the fact that the xpath links to anonymous member and non-anonymous member are different. A simply try-except statement would suffice.
+- Due to the fact that post_content may contain a lots of emoji/links, I have to loop over all the div contains the contents and save them in the innerHTML form.
+- The reactions is quite difficult because we wanted to get all number of reactions as well as number of each reactions. The creation_time is really difficult because at first it seemed like Meta does not really let us get the creation_time. Nevertheless, a simple Google gives us xpath link to a js script which contains a json file. This json file luckily contains the creation_time in term of UNIX time and the individual number of each reaction. There are still a lot more things that can be harvested from this JSON file. The xpath link to this script is `//script[contains(text(), "creation_time")]`
+- The comments is the most difficult thing for me. I have to write classes of comment and tree-like structure to maintain the hierarchy of the comments. It was messy and quite ad-hoc but it works.
+- [/] Scraping the data ➕ 2024-10-16
 - [ ] Plan how to analyze the data ➕ 2024-10-16
