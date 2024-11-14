@@ -1,7 +1,7 @@
 ---
 title: Analyze Post on Facebook Private Group BumbleVN
 date: 2024-10-16 11:41:00
-lastmod: 2024-11-14 19:04:31
+lastmod: 2024-11-14 20:14:55
 categories:
   - 
 tags:
@@ -30,7 +30,7 @@ So in order to scrape the data, we will use Selenium. Without any explanations, 
 2024-11-14
 
 - I have not updated in a while but as of today, the scraping is done. I have managed to get individual link to each post from a search result. For each link, I have managed to get user_name, user_url, post_content, reactions, creation_time, and all comments. I will go over each of these in detail below.
-- As I stated above, in order to get the correct link, we have to hover the mouse over. Yet doing it on a large scale is not that easy. I have to get all link on the current view, move the mouse to the link. If some links are not available, I will scroll down for half of the page length then repeat the process again. I manage to get all the links after doing these.
+- As I stated above, in order to get the correct link, we have to hover the mouse over. Yet doing it on a large scale is not that easy. I have to get all link on the current view, move the mouse to the link. If some links are not available, I will scroll down for half of the page length then repeat the process again. This also simplify the process because we don't have to scroll up and down to get the link but down only. I manage to get all the links after doing these.
 - Getting the user_name, user_url are rather easy. We only have to find the xpath link and get it. The slight inconvenience is the fact that the xpath links to anonymous member and non-anonymous member are different. A simply try-except statement would suffice.
 - Due to the fact that post_content may contain a lots of emoji/links, I have to loop over all the div contains the contents and save them in the innerHTML form.
 - The reactions is quite difficult because we wanted to get all number of reactions as well as number of each reactions. The creation_time is really difficult because at first it seemed like Meta does not really let us get the creation_time. Nevertheless, a simple Google gives us xpath link to a js script which contains a json file. This json file luckily contains the creation_time in term of UNIX time and the individual number of each reaction. There are still a lot more things that can be harvested from this JSON file. The xpath link to this script is `//script[contains(text(), "creation_time")]`
