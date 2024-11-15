@@ -1,7 +1,7 @@
 ---
 title: Analyze Post on Facebook Private Group BumbleVN
 date: 2024-10-16 11:41:00
-lastmod: 2024-11-14 20:19:32
+lastmod: 2024-11-15 17:15:45
 categories:
   - 
 tags:
@@ -35,5 +35,10 @@ So in order to scrape the data, I will use Selenium. Without any explanations, a
 - Due to the fact that post_content may contain a lots of emoji/links, I have to loop over all the div contains the contents and save them in the innerHTML form.
 - The reactions is quite difficult because I wanted to get all number of reactions as Ill as number of each reactions. The creation_time is really difficult because at first it seemed like Meta does not really let us get the creation_time. Nevertheless, a simple Google gives us xpath link to a js script which contains a json file. This json file luckily contains the creation_time in term of UNIX time and the individual number of each reaction. There are still a lot more things that can be harvested from this JSON file. The xpath link to this script is `//script[contains(text(), "creation_time")]`
 - The comments is the most difficult thing for me. I wanted to get the full content of the comments as Ill as to maintain the hierarchy of the comments. These require expanding all the comments to see the replies as Ill as expand the long comments that by pressing the button 'See more'. The replied comments are easy yet the 'See more' button sometimes can be obscured. I have to determine the position of the ancestor node and go down from there. Maintaining the hierarchy was another tricky part. I have to write classes of comment and tree-like structure to maintain the hierarchy of the comments. It was messy and quite ad-hoc but it works.
+
+2024-11-15
+
+- I tried to run the extractor on all the link but there are some issues, mostly with comments part. Apparently there can be GIF,video, and sticker in the comment (with or without text). Handling those things was easy.
+- There is a weird issue that I can't explain. When I try to click 'view more replies', the button was obscured by the homepage (weird I know). I have no idea why or what happened. However, after I change the comments from "Most relevant" to "All comments", I can click on all the "View more replies" button. Because of this change, the scroll function is not necessary anymore. Now I have to click on "View more comments" button to get all the comments, scroll gives me nothing. All of these are easy nevertheless, the confusing part is to figure out what happened (which I still have not managed).P
 - [/] Scraping the data ➕ 2024-10-16
 - [ ] Plan how to analyze the data ➕ 2024-10-16
