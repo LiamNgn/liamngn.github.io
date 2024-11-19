@@ -1,7 +1,7 @@
 ---
 title: Analyze Post on Facebook Private Group BumbleVN
 date: 2024-10-16 11:41:00
-lastmod: 2024-11-15 17:15:45
+lastmod: 2024-11-19 21:23:01
 categories:
   - 
 tags:
@@ -39,6 +39,11 @@ So in order to scrape the data, I will use Selenium. Without any explanations, a
 2024-11-15
 
 - I tried to run the extractor on all the link but there are some issues, mostly with comments part. Apparently there can be GIF,video, and sticker in the comment (with or without text). Handling those things was easy.
-- There is a weird issue that I can't explain. When I try to click 'view more replies', the button was obscured by the homepage (weird I know). I have no idea why or what happened. However, after I change the comments from "Most relevant" to "All comments", I can click on all the "View more replies" button. Because of this change, the scroll function is not necessary anymore. Now I have to click on "View more comments" button to get all the comments, scroll gives me nothing. All of these are easy nevertheless, the confusing part is to figure out what happened (which I still have not managed).P
+- There is a weird issue that I can't explain. When I try to click 'view more replies', the button was obscured by the homepage (weird I know). I have no idea why or what happened. However, after I change the comments from "Most relevant" to "All comments", I can click on all the "View more replies" button. Because of this change, the scroll function is not necessary anymore. Now I have to click on "View more comments" button to get all the comments, scroll gives me nothing. All of these are easy nevertheless, the confusing part is to figure out what happened (which I still have not managed).
+
+2024-19-11
+
+- So I encountered some errors with comments consists only of image and GIF. Those was easy. The most annoying one is the comment removed. I spent quite some time on this one. I had to change the structure of the function as well as adding some new function. The most annoying part is the messy structure of the html of Facebook page. I tried to look but it seems like the most effective way is to use the developer tool in browser. But the working space is really narrow, kind of annoying to be honest.
+- Nevertheless, I have pulled it off. It works now. Congrats to me.
 - [/] Scraping the data ➕ 2024-10-16
 - [ ] Plan how to analyze the data ➕ 2024-10-16
