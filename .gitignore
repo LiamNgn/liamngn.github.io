@@ -1,0 +1,10 @@
+# Hugo build output — the GitHub Actions workflow builds this on every push
+public/
+
+# Hugo asset cache
+resources/
+.hugo_build.lock
+
+# OS / editor cruft
+.DS_Store
+*.swp

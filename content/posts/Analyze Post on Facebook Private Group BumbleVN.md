@@ -2,15 +2,15 @@
 title: Analyze Post on Facebook Private Group BumbleVN
 date: 2024-10-16 11:41:00
 lastmod: 2024-11-19 21:23:01
+slug: analyze-facebook-group-bumblevn
 categories:
-  - 
+  - data
 tags:
-  - 
-aliases: 
-share: true
+  - selenium
+  - web-scraping
+  - facebook
+draft: false
 ---
-
-# Analyze Post on Facebook Private Group BumbleVN
 
 2024-10-21
 

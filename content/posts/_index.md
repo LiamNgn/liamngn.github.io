@@ -1,5 +1,5 @@
 ---
-title: "Post"
+title: "Posts"
 menu: "main"
-weight: 3
+weight: 2
 ---
