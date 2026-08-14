@@ -1,5 +1,6 @@
 # Basic config
 baseURL = "https://liamngn.github.io"
+title = "Liam Nguyen"
 theme = "hugo-bearcub"
 copyright = "Liam Ngn (CC BY 4.0)"
 defaultContentLanguage = "en"
