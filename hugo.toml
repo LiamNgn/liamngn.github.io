@@ -1,6 +1,6 @@
 # Basic config
 baseURL = "https://liamngn.github.io"
-title = "Liam Nguyen"
+title = "Tung Lam Nguyen Le"
 theme = "hugo-bearcub"
 copyright = "Liam Ngn (CC BY 4.0)"
 defaultContentLanguage = "en"
@@ -23,7 +23,7 @@ enableRobotsTXT = true
 
 [params]
   # The description of your website
-  description = "LiamNgn's personal website"
+  description = "Personal website of Tung Lam Nguyen Le"
 
   # The path to your favicon
   favicon = "images/favicon.png"
@@ -36,7 +36,7 @@ enableRobotsTXT = true
 
   # This title is used as the site_name on the Hugo's internal opengraph
   # structured data template
-  title = "Liam Nguyen"
+  title = "Tung Lam Nguyen Le"
 
   # Dates are displayed following the format below. For more information about
   # formatting, see https://gohugo.io/functions/format/
@@ -67,5 +67,5 @@ enableRobotsTXT = true
   # Author metadata. This is mostly used for the RSS feed of your site, but the
   # email is also added to the footer of each post
   [params.author]
-    name = "Liam Nguyen" # Your name as shown in the RSS feed metadata
+    name = "Tung Lam Nguyen Le" # Your name as shown in the RSS feed metadata
     email = "tlam.nguyenle@gmail.com" # Added to the footer so readers can reply to posts

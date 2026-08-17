@@ -6,9 +6,9 @@ weight: 1
 
 # About me
 
- My name is Lam Nguyen Le Tung but you can call me Liam and this is my personal website. I write about machine learning, statistics, probability as well as movies and books. I read a lot of different type of books. 
+ My name is Tung Lam Nguyen Le but you can call me Liam and this is my personal website. I write about machine learning, statistics, probability as well as movies and books. I read a lot of different type of books.
 
- I'm currently working as a research engineer at [ENSAE](https://www.ensae.fr/en) in [FAIRPLAY](https://team.inria.fr/fairplay/) lab. I graduated from [Toulouse School of Economics](https://www.tse-fr.eu/) with a degree in Applied Mathematics and Statistics. 
+ I'm currently doing research at [LIS-LAB](https://www.lis-lab.fr/), CNRS, in Marseille. Before that I was a research intern at [ENSAE](https://www.ensae.fr/en) in the [FAIRPLAY](https://team.inria.fr/fairplay/) lab. I graduated from [Toulouse School of Economics](https://www.tse-fr.eu/) with a degree in Applied Mathematics and Statistics.
 
  You can find out more about me:
 
